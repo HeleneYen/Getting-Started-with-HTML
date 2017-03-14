@@ -1,0 +1,227 @@
+<!DOCTYPE html> 
+<html>
+
+     <head> 
+
+          <title> 
+               Udacity Intro to Programming Nanodgree
+               Stage 0: Getting Started with HTML 
+               Project: HTML file containing section notes
+          </title>
+
+          <style> </style>
+          <base> </base>
+          <link> </link>
+          
+          <meta charset="UTF-8">
+          <meta name="description" content="Intro HTML Notes">
+          <meta name="keywords" content="HTML, intro, notes">
+          <meta name="author" content="Helene Yen">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <script> </script>
+          <noscript> </noscript>
+          
+     </head> 
+
+
+     <body>
+
+          <h1> Getting Started with HTML Notes </h1>
+               <p> 
+                    Notes from, and project for, "Stage 0: Getting Started with HTML" within 
+                    Udacity's 
+                    <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">
+                    Intro to Programming Nanodegree </a>
+               </p>
+
+
+          <br>
+          <h2> World Wide Web Composition </h2>
+               The web is largely composed of HTML documents: 
+               <ul>
+                    <li> HTML = <u>H</u>yper<u>T</u>ext 
+                                        <u>M</u>arkup 
+                                        <u>L</u>anguage 
+                    <li> Hypertext = text which contains links to other texts
+                    <li> HTML = the language web browsers use to interpret web pages
+               </ul>
+
+               The components of the web include:
+               <ul>
+                    <li> The Client = your computer and browser
+                    <li> The Internet = the world's largest computer network
+                    <li> Servers = computers that host the files that make up the web
+               </ul>
+
+               The client and servers interact through HTTP:
+               <ul>
+                    <li> HTTP = <u>H</u>yper<u>T</u>ext 
+                                       <u>T</u>ransfer 
+                                       <u>P</u>rotocol
+                    <li> Protocol = a standard that specifies how data are 
+                                          transmitted between computers
+               </ul>
+
+
+          <br>
+          <h2> HTML Components </h2>
+               HTML is made up of:
+               <ul>
+                    <li> Text content = what you see
+                    <li> Markup = what it looks like
+                    <li> References to other documents (e.g., images and videos)
+               </ul>
+          
+               HTML Markup is made up of: 
+               <ul> 
+                    <li> Elements = components that tell the web browser how to display 
+                                            content on a web page
+                    <li> Tags = keywords that tell the web browser how to format the content
+               </ul>
+               
+               HTML Elements:
+               <ul>
+                    <li> Usually consist of an opening tag, a closing tag, and some content 
+                           between them <br>
+                           <br>
+                    <li> General format: &lt;TagName&gt; Contents &lt;/TagName&gt;
+                         <ul> <br>
+                              <li> &lt;TagName&gt; = opening tag
+                              <li> &lt;/TagName&gt; = closing tag
+                         </ul> 
+                         <br>
+                    <li> Attributes: Additional values accepted by some elements in their 
+                           opening tags <br>
+                         <ul> <br>
+                              <li> Provide additional information to the browser
+                              <li> General Format:  &lt;TagName AttributeName = 
+                                                              "AttributeValue"&gt;
+                                                              Contents &lt;/TagName&gt;
+                         </ul>
+                         <br>
+               </ul>
+               
+          <br>
+          <h2> HTML Tags </h2>
+               <ul>
+                    <li> Bold Tag: &lt;b&gt; Contents &lt;/b&gt; <br>
+                    <br>
+                    <li> Em Tag: &lt;em&gt; Contents &lt;/em&gt; <br>
+                    <br>
+                    <li> Anchor Tag: &lt;a href="url"&gt; LinkDisplay &lt;/a&gt;
+                         <ul> <br>
+                              <li> Creates a hyperlink to the url & names it LinkDisplay
+                              <li> Example of a tag that uses an attribute (href)
+                         </ul> 
+                    <br>
+                    <li> Image Tag: &lt;img src="url" alt="text"&gt; 
+                         <ul> <br>
+                              <li> Displays the image hosted at the src attribute value "url" 
+                                     inline with text
+                              <li> "url" = path to image, can be a local file on computer
+                              <li> "text" = required attribute, displayed for a broken request 
+                         </ul>
+                    <br>
+                    <li> Break Tag: &lt;br&gt;
+                         <ul> <br>
+                              <li> Creates a line break
+                              <li> Inline element
+                              <li> Void tag
+                         </ul>
+                    <br>
+                    <li> Void Tag = tag with only an opening tag and no end tag because 
+                         it does not have any content <br>
+                    <br>
+                    <li> Paragraph Tag: &lt;p&gt; Content &lt;/p&gt;
+                         <ul> <br>
+                              <li> Defines a paragraph
+                              <li> Is a block element
+                         </ul>
+                    <br>
+                    <li> Containers: use to add styles to text
+                         <ul> <br>
+                              <li> &lt;span&gt; Text &lt;/span&gt; = Creates an inline container element
+                              <li> &lt;div&gt; Text &lt;/div&gt; = Creates a block container element
+                         </ul>
+                    <br>
+                    <li> Inline and Block: <br>
+                              <ul> <br>
+                                   <li> Inline = element continues on current line
+                                   <li> Block = element starts a new line and makes an invisible 
+                                                      box with adjustable height and width
+                              </ul>
+               </ul>
+
+
+          <br>
+          <h2> Complete HTML Document Structure </h2>
+          <b>&lt;!DOCTYPE html&gt;</b> 
+          <ul> 
+               <em> 
+                    <li> Must be the very first thing in HTML document
+                    <li> Defines the type of the document so the browser will render it correctly
+               </em>
+          </ul>
+          
+          <b>&lt;html&gt;</b>
+          <ul>
+               <em>
+                    <li> Opening HTML tag
+                    <li> Everything that shows on the webpage is placed within this tag
+               </em>
+          </ul>
+
+          <blockquote>
+               <b>&lt;head&gt;</b>
+               <ul>
+                    <em>
+                         <li> Opening header tag, defines metadata for webpage
+                         <li> Indented to a new level because the &lt;html&gt; tag 
+                                was opened but not closed
+                    </em>
+               </ul>
+          
+                    <blockquote>
+                    <b>&lt;title&gt; Title &lt;/title&gt;</b>
+                         <ul>
+                              <em>
+                                   <li> Document title
+                                   <li> Indented another level further because the &lt;head&gt; 
+                                          tag was opened but not closed
+                              </em>
+                         </ul>
+                    </blockquote>
+                    
+              <b>&lt;/head&gt;</b> <em> Closing header tag </em>
+              </blockquote>
+
+             <blockquote>
+             <b> &lt;body&gt; </b> 
+                    <ul>
+                         <em> 
+                              <li> Opening body tag
+                              <li> Actual contents of document 
+                         </em>
+                    </ul>
+               <b> &lt;/body&gt;</b> <em> Closing body tag </em>
+               </blockquote>
+
+          <b> &lt;/html&gt; </b> <em> Closing HTML tag </em>
+
+
+          <br>
+          <br>
+          <br>
+          <h2> Additional Resources </h2>
+               <ul>
+                    <li> <a href = "https://www.w3schools.com/"> W3Schools </a>
+                    <li> <a href = "https://developer.mozilla.org/en-US/"> 
+                                          MDN (Mozilla Developer Network) </a>
+               </ul>
+          <br>
+          <br>
+
+     </body> 
+
+</html>
