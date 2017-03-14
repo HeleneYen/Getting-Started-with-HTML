@@ -1,6 +1,5 @@
 ## Getting-Started-with-HTML
-Udacity Intro to Programming Nanodegree Stage 0 (Getting Started with HTML) Project
-https://www.udacity.com/course/intro-to-programming-nanodegree--nd000
+Udacity <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Intro to Programming Nanodegree Stage 0 (Getting Started with HTML)</a> Project
 
 ## Project Details:
 - Create an HTML file to contain your notes from this section
