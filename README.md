@@ -7,6 +7,11 @@
 - Make sure you use proper HTML Document structure for your code
 
 ### Stage 1 Project: 
-- Using HTML tags like &lt;div&gt;, &lt;p&gt;, &lt;h1&gt; to structure your page
-- Styling your page using CSS class selectors
-- Adding images to your page by referencing local files on your computer or online files via a URL
+- Create a personal web page showing off all the skills you've learned so far. Can be on any topic
+- Use HTML tags like &lt;div&gt;, &lt;p&gt;, &lt;h1&gt; to structure your page
+- Style your page using CSS class selectors
+- Add images to your page by referencing local files on your computer or online files via a URL
+<b><i> Code review criteria: </i></b>  
+- HTML and CSS should be properly formatted and should pass <a href="https://validator.w3.org/#validate_by_input"> HTML validation </a> and <a href="https://jigsaw.w3.org/css-validator/#validate_by_input"> CSS validation </a> tests
+- Content that is logically related should be grouped together within a container element (like a &lt;div&gt; or &lt;span&gt;). 
+- All tags should be used for their semantic purpose (ex: don't use a &lt;p&gt; tag to make a headline)
