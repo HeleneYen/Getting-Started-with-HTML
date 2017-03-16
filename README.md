@@ -6,7 +6,7 @@
 - Keep it simple. CSS is used for styling and is not necessary for this project
 - Make sure you use proper HTML Document structure for your code
 
-### Stage 1 Project: 
+### Stage 1 Project: Make a Web Page
 <ul>
   <li> Create a personal web page showing off all the skills you've learned so far. Can be on any topic </li>
   <li> Use HTML tags like &lt;div&gt;, &lt;p&gt;, &lt;h1&gt; to structure your page </li>
