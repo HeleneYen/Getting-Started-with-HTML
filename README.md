@@ -11,7 +11,19 @@
 - Use HTML tags like &lt;div&gt;, &lt;p&gt;, &lt;h1&gt; to structure your page
 - Style your page using CSS class selectors
 - Add images to your page by referencing local files on your computer or online files via a URL
+<br>
 <b><i> Code review criteria: </i></b>  
-- HTML and CSS should be properly formatted and should pass <a href="https://validator.w3.org/#validate_by_input"> HTML validation </a> and <a href="https://jigsaw.w3.org/css-validator/#validate_by_input"> CSS validation </a> tests
-- Content that is logically related should be grouped together within a container element (like a &lt;div&gt; or &lt;span&gt;). 
-- All tags should be used for their semantic purpose (ex: don't use a &lt;p&gt; tag to make a headline)
+- <b> Use of Syntax: </b> HTML and CSS should be properly formatted and should pass <a href="https://validator.w3.org/#validate_by_input"> HTML validation </a> and <a href="https://jigsaw.w3.org/css-validator/#validate_by_input"> CSS validation </a> tests
+- <b> Use of Logical HTML Structure: </b> 
+<ul>
+  <li> Content that is logically related should be grouped together within a container element (like a &lt;div&gt; or &lt;span&gt;) </li>
+  <li> All tags should be used for their semantic purpose (ex: don't use a &lt;p&gt; tag to make a headline) </li>
+</ul>
+- <b> Use of HTML Classes and CSS Styling: </b> 
+<ul> 
+  <li> There shouldn't be any unnecessary repetition in your CSS code </li> 
+  <li> Similar HTML elements should have the same class name </li>
+  <li> <b> Important: </b> Must include a CSS file in your project submission. We want you to practice linking CSS in your HTML. Simply using &lt;style&gt; tags is not sufficient  </li>
+</ul>
+- <b> Use of Tags: </b> Page uses tags correctly, e.g., &lt;p&gt; for paragraphs, &lt;h1&gt; for main heading, and so on.
+- <b> Content Display: </b> Page displays at least one image and some text
