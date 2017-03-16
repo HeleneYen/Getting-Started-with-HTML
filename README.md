@@ -28,8 +28,7 @@
     <ul> 
       <li> There shouldn't be any unnecessary repetition in your CSS code </li> 
       <li> Similar HTML elements should have the same class name </li>
-      <li> Must include a CSS file in your project submission. We want you to practice linking CSS in your HTML.  
-            Simply using &lt;style&gt; tags is not sufficient  </li>
+      <li> Must include a CSS file in your project submission. We want you to practice linking CSS in your HTML. Simply using &lt;style&gt; tags is not sufficient  </li>
     </ul>
   <li> Use of Tags: Page uses tags correctly, e.g., &lt;p&gt; for paragraphs, &lt;h1&gt; for main heading, and so on </li>
   <li> Content Display: Page displays at least one image and some text </li>
