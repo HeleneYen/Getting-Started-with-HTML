@@ -20,8 +20,8 @@
 <ul>
   <li> Use Python to build a fill-in-the blank style game </li>
   <li> Game must have 3 or more levels and each level must contain 4 or more blanks for the user to fill in </li>
-  <li> Immediately after running the program, user is prompted to select a difficulty level from easy / medium / hard </li>
-  <li> Once a level is selected, the game displays a fill-in-the-blank and a prompt to fill in the first blank </li>
-  <li> When player guesses correctly, replace the blank with the answer and prompt the player to fill in the next blank </li>
-  <li> When player guesses incorrectly, they are prompted to try again </li>
+  <li> Immediately after running the program, prompt the player to select a difficulty level </li>
+  <li> Once a level is selected, display a paragraph with missing words and prompt the player to fill in the first blank </li>
+  <li> When the player guesses correctly, replace the blank with the answer and prompt the player to fill in the next blank </li>
+  <li> When the player guesses incorrectly, prompt him/her to try again </li>
 </ul>
