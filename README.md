@@ -6,6 +6,7 @@
   <li> Submit your notes as an HTML file using the tags you learned about in these lessons
   <li> Keep it simple. CSS is used for styling and is not necessary for this project
   <li> Make sure you use proper HTML Document structure for your code
+</ul>
 
 ### Stage 1 Project: Make a Web Page
 <ul>
