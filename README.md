@@ -22,6 +22,6 @@
   <li> Game must have 3 or more levels and each level must contain 4 or more blanks for the user to fill in </li>
   <li> Immediately after running the program, user is prompted to select a difficulty level from easy / medium / hard </li>
   <li> Once a level is selected, the game displays a fill-in-the-blank and a prompt to fill in the first blank </li>
-  <li> When player guesses correctly, new prompt shows with correct answer in the previous blank and a new prompt for the next blank </li>
+  <li> When player guesses correctly, replace the blank with the answer and prompt the player to fill in the next blank </li>
   <li> When player guesses incorrectly, they are prompted to try again </li>
 </ul>
