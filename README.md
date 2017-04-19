@@ -25,3 +25,9 @@
   <li> When the player guesses correctly, replace the blank with the answer and prompt the player to fill in the next blank </li>
   <li> When the player guesses incorrectly, prompt him/her to try again </li>
 </ul>
+
+### Stage 3 Project: Create a Movie Trailer Website
+<ul>
+  <li> Write code to store a list of your favorite movies, including box art imagery and a movie trailer URL
+  <li> Use code to generate a static web page allowing visitors to browse their movies and watch the trailer
+</ul>
