@@ -1,4 +1,4 @@
-# IPND Stage 2 Final Project
+# IPND Stage 3 Final Project
 # Build a Fill-in-the-Blanks quiz.
 # Prompt a user with a paragraph containing several blanks.
 # Ask user to fill in each blank appropriately to complete the paragraph
